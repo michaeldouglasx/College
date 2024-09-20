@@ -1,4 +1,4 @@
-entrada =input("digite os valores dos produtos utilizando virgula: ")
+entrada =input("digite os valores dos produtos separados por virgula: ")
 
 valor_produto = [float(valor) for valor in entrada.split(",")]
 acrescimo = float(input("Qual a porcentagem desejada?")) /100
