@@ -28,3 +28,5 @@ print ('E alfa numérico?', algo.isalnum ())
 print ('Está em letras maiúsculas?', algo.isupper())
 
 print ('Está em letras minúsculas?  ', algo.islower())
+
+print ('Está capitalizado', algo.istitle())
