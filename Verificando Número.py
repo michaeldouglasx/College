@@ -13,7 +13,7 @@ elif algo.isalnum():
     print('Esse dado é uma alfanumerico')
     
 else:
-    print ('Erro')
+    print ('Não é um número, letra ou alfanumerico!')
 
 print ("o tipo primitivo desse dado é:", type (algo))
 
