@@ -1,9 +1,9 @@
 estoque = [200, 53 , 12 , 350 , 23, 200, 145, 43, 23,]
-produtos = ['coca', 'fanta', 'heineken', 'skol', 'sukita', 'brahma', 'mineiro', 'guaraná' , 'monster']
-qtd_minimo = 50
-for i, estoqueminimo in enumerate (estoque):
-    if estoqueminimo > qtd_minimo:
-        print (f'A quantidade de estoque: {estoqueminimo}, é suficiente! ')
+produtos = ['Coca-cola', 'Fanta', 'Heineken', 'Skol', 'Sukita', 'Brahma', 'Mineiro', 'Guaraná' , 'Monster']
+nivel_minimo = 50
+for i, qtdeminima in enumerate (estoque):
+    if qtdeminima > nivel_minimo:
+        print (f'A quantidade de estoque de {produtos[i]}: {qtdeminima}, é suficiente! ')
     else:
-        print(f'A quantidade de estoque: {estoqueminimo}, não é suficiente!')
+        print(f'A quantidade de estoque de {produtos[i]}: {qtdeminima}, não é suficiente!')
     
