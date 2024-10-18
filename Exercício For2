@@ -1,0 +1,9 @@
+qtd_pessoas = int(input("Qual a quantidade de pessoas? "))
+quarto = []
+for i in range(qtd_pessoas):
+    nome = input("Qual o nome?:  ")
+    cpf = input("Qual o cpf?: ")
+    hospede = (f"Nome:  {nome}  CPF: {cpf}")
+    quarto.append(hospede)
+
+print (quarto)
